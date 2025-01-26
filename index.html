@@ -40,6 +40,30 @@
                 margin-top: -20px;
             }
 
+           #getInTouchDiv{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: -20px;
+           }
+           .inputBoxDesign{
+            width: 70%;
+            height: 75px;
+            border-radius: 50px 0px 0px 50px;
+            border:none;
+            font-size: 30px;
+            padding-left: 20px;
+            
+           }
+           .buttonDesign2{
+            width: 20%;
+            height: 75px;
+            border-radius: 0px 50px 50px 0px;
+            background: #5EFF0E;
+            border: none;
+            font-size: 30px;
+           }
+
             #chooseYourOption{
                 margin-top: -30px;
             }
@@ -51,7 +75,7 @@
             }
             .buttonDesign{
                 background-size: cover;
-                height: 200px;
+                height: 250px;
                 border-radius: 30px;
                 border: none;
                 width: 98%;
@@ -91,6 +115,14 @@
             <h1 class="contact heading_text">Contact us</h1>
             <p class="no normal_text">phone no : 6303546769</p>
             <p class="email normal_text">email : maverickverse.email@gmail.com</p>
+            <P class="showYourIntrest heading_text" style="margin-top: -8px;">Show your intrest here</P>       
+            <form action="https://formsubmit.co/3e1b324d5d20b1146fe05685737f40b1" method="post">
+            <div id="getInTouchDiv">
+                <input type="hidden" name="_next" value="https://maverick-tej.github.io/brojet/">
+                <input type="email" name="email" placeholder="Enter your email here" class="emailBox inputBoxDesign" required>
+                <input type="submit" class="getInTouch buttonDesign2" style="margin-left: 20px;" value="Get in touch">
+            </div>
+            </form>
         </div> 
         <div id="chooseYourOption">
             <p class="chooseText heading_text">Click your option</p>
